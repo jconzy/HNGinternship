@@ -1,0 +1,96 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"], [class*="colFix-"]{
+  float: left;
+}
+
+/* -------------- NAV BAR STARTS HERE ---------------- */
+
+.nav{
+    height:55px;
+    padding:0;
+    margin:0;
+    background-color:#212129;
+}
+
+.nav-bar{
+    height: 55px;
+    background: #212129;
+    margin: 0 8.33%;
+    padding: 0;
+}
+
+.nav-bar>ul{
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+} 
+
+.nav-bar>ul>a{
+    text-decoration: none;
+    margin: 0 50 0 0;
+    font-size: 15;
+    font-family:'rubik', sans-serif;
+    color: #ffffff
+}
+
+.active{
+    color: #8CDEF7 !important;
+}
+
+.nav-bar>ul>a:hover{
+    color: #8CDEF7
+}
+
+/* -------------- NAV BAR ENDS HERE ---------------- */
+
+.container{
+    width: 100%;
+    display: table;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background: url(../images/team_africa.jpg) no-repeat top left;
+}
+
+.container>p{
+    font-size: 70px;
+    font-family: 'rubik', sans-serif;
+    text-align: center;
+    margin-top: 160px;
+    color: white;
+    padding: 0;
+    letter-spacing: 36;
+}
+
+.container>h2{
+    font-size: 50px;
+    text-align: right;
+    font-family: 'rubik', sans-serif;
+    font-weight: 100%;
+    color: #8CDEF7;
+    padding: 0;
+    margin: 170px 80px 0 0;
+}
